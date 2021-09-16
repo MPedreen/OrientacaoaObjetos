@@ -5,7 +5,8 @@ namespace OrientacaoaObjetos.ContentContext
 {
     public class Course : Content
     {
-        public Course()
+        public Course(string title, string url)
+            : base(title, url)
         {
             Modules = new List<Module>();
             // sempre que criar um objeto dentro um objeto, tem que criar o método construtor e iniciar o objeto, se não da erro na hora de executar. No erro vai falar que os "Modules" são inválidos, nome do erro: "System.NullReferenceException". Erro bem comum no dotnet.
