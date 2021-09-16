@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using OrientacaoaObjetos.ContentContext;
 
 namespace OrientacaoaObjetos
@@ -18,6 +19,31 @@ namespace OrientacaoaObjetos
                 Console.WriteLine(article.Id);
                 Console.WriteLine(article.Title);
                 Console.WriteLine(article.Url);
+            }
+
+            var courses = new List<Course>();
+            var courseOOP = new Course("Fundamentos OOP", "fundamentos-oop");
+            var courseCsharp = new Course("Fundamentos C#", "fundamentos-c#");
+            var courseAspNet = new Course("Fundamentos ASP.NET", "fundamentos-aspnet");
+
+            courses.Add(courseOOP);
+            courses.Add(courseCsharp);
+            courses.Add(courseAspNet);
+
+            var careers = new List<Career>();
+            var careerDotNet = new Career("Especialista .NET", "especialista-dotnet");
+            var careerItem = new CareerItem(1, "Comece por aqui", "", null);
+
+            careerDotNet.Items.Add(careerItem);
+            careers.Add(careerDotNet);
+
+            foreach (var career in careers)
+            {
+                Console.WriteLine(career.Title);
+                foreach (var item in career.Items.OrderBy(x => x.Order))
+                {
+                    Console.WriteLine($"{item.Order} - {item.Title}");
+                }
             }
         }
     }
