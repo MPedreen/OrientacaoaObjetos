@@ -32,7 +32,7 @@ namespace OrientacaoaObjetos
 
             var careers = new List<Career>();
             var careerDotNet = new Career("Especialista .NET", "especialista-dotnet");
-            var careerItem = new CareerItem(1, "Comece por aqui", "", null);
+            var careerItem = new CareerItem(1, "Comece por aqui", "", courseOOP);
 
             careerDotNet.Items.Add(careerItem);
             careers.Add(careerDotNet);
@@ -43,6 +43,8 @@ namespace OrientacaoaObjetos
                 foreach (var item in career.Items.OrderBy(x => x.Order))
                 {
                     Console.WriteLine($"{item.Order} - {item.Title}");
+                    Console.WriteLine(item.Course.Title);
+                    Console.WriteLine(item.Course.Level);
                 }
             }
         }
