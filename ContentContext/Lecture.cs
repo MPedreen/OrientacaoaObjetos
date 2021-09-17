@@ -2,7 +2,7 @@ using OrientacaoaObjetos.ContentContext.Enums;
 
 namespace OrientacaoaObjetos.ContentContext
 {
-    public class Lecture
+    public class Lecture : Base
     //Lecture são as aulas do curso.
     {
         public int Order { get; set; }

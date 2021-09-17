@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace OrientacaoaObjetos.ContentContext
 {
-    public class Module
+    public class Module : Base
     //Módulos do curso, 1 curso tem vários modulos e 1 módulo tem varias aulas.
     {
         public Module()
