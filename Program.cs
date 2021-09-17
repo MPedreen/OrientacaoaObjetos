@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using OrientacaoaObjetos.ContentContext;
+using OrientacaoaObjetos.SubscriptionContext;
 
 //https://github.com/andrebaltieri/flunt
 //dotnet add package flunt
@@ -53,6 +54,12 @@ namespace OrientacaoaObjetos
                     {
                         Console.WriteLine($"{notification.Property} - {notification.Message}");
                     }
+
+
+                    var payPalSubscription = new PayPalSubscription();
+                    var student = new Student();
+
+                    student.CreateSubscription(payPalSubscription);
                 }
             }
         }
