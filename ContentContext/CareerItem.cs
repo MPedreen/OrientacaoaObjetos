@@ -1,3 +1,5 @@
+using OrientacaoaObjetos.NotificationContext;
+
 namespace OrientacaoaObjetos.ContentContext
 {
     public class CareerItem : Base
@@ -6,7 +8,8 @@ namespace OrientacaoaObjetos.ContentContext
         public CareerItem(int order, string title, string description, Course course)
         {
             if (course == null)
-                throw new System.Exception("O curso não pode ser nulo");
+                AddNotification(new Notification("Course", "Curso inválido."));
+            //adicionando uma notificação, agora nao trava mais a execução do programa.
 
             Order = order;
             Title = title;
