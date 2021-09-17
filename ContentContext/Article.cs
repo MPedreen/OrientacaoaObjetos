@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using OrientacaoaObjetos.NotificationContext;
+
 namespace OrientacaoaObjetos.ContentContext
 {
     public class Article : Content
