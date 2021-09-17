@@ -1,4 +1,5 @@
 using OrientacaoaObjetos.ContentContext.Enums;
+using OrientacaoaObjetos.SharedContext;
 
 namespace OrientacaoaObjetos.ContentContext
 {

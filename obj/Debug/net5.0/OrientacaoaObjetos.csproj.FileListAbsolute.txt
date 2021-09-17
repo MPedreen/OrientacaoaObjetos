@@ -14,3 +14,5 @@ C:\OrientacaoaObjetos\obj\Debug\net5.0\OrientacaoaObjetos.dll
 C:\OrientacaoaObjetos\obj\Debug\net5.0\ref\OrientacaoaObjetos.dll
 C:\OrientacaoaObjetos\obj\Debug\net5.0\OrientacaoaObjetos.pdb
 C:\OrientacaoaObjetos\obj\Debug\net5.0\OrientacaoaObjetos.genruntimeconfig.cache
+C:\OrientacaoaObjetos\bin\Debug\net5.0\Flunt.dll
+C:\OrientacaoaObjetos\obj\Debug\net5.0\OrientacaoaObjetos.csproj.CopyComplete

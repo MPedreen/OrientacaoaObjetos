@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bFvOcirOTHPDmeSVC6km/88WbLyIy3pY9xvFPva71dIZ9oihPhr1jQP7yhISR4+FaGSt4El9EJbDM4jSuA9DUA==",
+  "dgSpecHash": "uCB88a7ZEPtHbFdCuI3abga3aRnmga3e2Wjb/6aRu+SRVAyG5lBBAP4l/EFxWnFf0bl9hAaH2yc7EuDZq6me/g==",
   "success": true,
   "projectFilePath": "C:\\OrientacaoaObjetos\\OrientacaoaObjetos.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\win10\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

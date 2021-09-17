@@ -1,4 +1,5 @@
 using System;
+using OrientacaoaObjetos.SharedContext;
 
 namespace OrientacaoaObjetos.ContentContext
 {
